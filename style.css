@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/* header section */
+.header-section {
+    background-color: #F5F7FA;
+}
+.nav-links {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding-top: 30px;
+    padding-left: 150px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #18191F;
+}
+.header-nav{
+    display: flex;
+    gap: 100px;
+}
+.header-logo {
+    padding-top: 30px;
+    padding-left: 105px;
+    gap: 8px;
+
+}
+.register {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 22px;
+    padding-left: 105px;
+}
+.login-btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    color: #4CAF4F;
+    background-color: #F5F7FA;
+}
+.signup-btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #4CAF4F;
+    color: white;
+}
+/* /header section */
+
+/* hero section */
+.hero-section {
+    background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 96px 144px;
+}
+.hero-img {
+    background-color: #F5F7FA;
+}
+.hero-text h2 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    font-style: bold;
+    margin-bottom: 20px;
+    color: #4D4D4D;
+}
+.hero-text p {
+    font-weight: 400;
+    color: #717171;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.hero-text .hero-btn {
+    padding: 14px 32px;
+    border-radius: 4px;
+    background-color: #4CAF4F;
+    border: none;
+    color: white;
+}
+.nuqta {
+    display: block;
+    margin-left: 50%;
+}
