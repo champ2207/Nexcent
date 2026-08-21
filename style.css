@@ -94,3 +94,98 @@ img {
     display: block;
     margin-left: 50%;
 }
+/* /hero section */
+
+/*clients section */
+.clients-section-info {
+    text-align: center;
+    margin-top: 30px;
+}
+.clients-section-info h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+    margin-bottom: 10px;
+}
+.clients-section-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    margin-bottom: 30px;
+}
+.clients-section-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 50px;
+}
+/* /clients section */
+
+/* community section */
+.community-info {
+    text-align: center;
+}
+.community-info h2 {
+    color: #4d4d4d;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+.community-info p {
+    color: #717171;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.membership-wrapper {
+}
+.membership-icon {
+  
+}
+.community-membership {
+    padding: 24px 32px;
+    display: flex;
+    gap: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* unlock section */
+.unlock-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.unlock-info {
+    width: 661px;
+    margin-left: 400px;
+    margin-right: 100px;
+}
+.unlock-info h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+    width: 600px;
+}
+.unlock-info p {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    width: 600px;
+}
+.unlock-info button {
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 4px;
+    
+}
