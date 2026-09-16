@@ -58,12 +58,19 @@ img {
 /* /header section */
 
 /* hero section */
+.hero-text .hero-highlight {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #4CAF4F;
+}
 .hero-section {
     background-color: #F5F7FA;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 96px 144px;
+    height: 100vh;  
 }
 .hero-img {
     background-color: #F5F7FA;
@@ -73,7 +80,7 @@ img {
     font-size: 64px;
     line-height: 76px;
     font-style: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #4D4D4D;
 }
 .hero-text p {
@@ -144,16 +151,33 @@ img {
     margin-top: 15px;
 }
 .membership-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 32px;
 }
-.membership-icon {
-  
+.membership-wrapper h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #4D4D4D;
+    margin-top: 10px;
+}
+.membership-wrapper p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    margin: 0 auto;
+    max-width: 250px;
+    margin-top: 10px;
 }
 .community-membership {
-    padding: 24px 32px;
+    padding-right: 144px;
+    padding-left: 144px;
     display: flex;
-    gap: 400px;
-    margin-left: 50px;
-    margin-right: 50px;
+    gap: 30px;   
 }
 
 /* unlock section */
@@ -161,11 +185,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.unlock-info {
-    width: 661px;
-    margin-left: 400px;
-    margin-right: 100px;
+    margin: 0 auto;
+    max-width: 1100px;
 }
 .unlock-info h2 {
     font-weight: 600;
@@ -173,8 +194,10 @@ img {
     line-height: 44px;
     color: #4D4D4D;
     width: 600px;
+    margin-bottom: 20px;
 }
 .unlock-info p {
+    margin-bottom: 40px;
     font-weight: 400px;
     font-size: 14px;
     line-height: 20px;
@@ -187,5 +210,75 @@ img {
     border: none;
     padding: 14px 32px;
     border-radius: 4px;
-    
+}
+/* /unlock section */
+
+/* achievements-section */
+.achievements-section {
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 144px;
+}
+.achievements-icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 40px;
+    width: 50%;
+}
+.achievements-icon {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.achievements-section-info .highlight {
+    color: #4CAF4F;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+}
+.achievements-section-info h2 {
+    color: #4D4D4D;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+}
+.achievements-section-info p {
+    color: #18191F;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+/* /achievements-section */
+/* calendar-section */
+.calendar-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.calendar-info h3 {
+    width: 600px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+.calendar-info p {
+    width: 600px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    margin-top: 15px;
+}
+.calendar-info button {
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 4px;
+    margin-top: 20px;
 }
