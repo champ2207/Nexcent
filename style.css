@@ -384,7 +384,6 @@ img {
     padding: 16px;
     width: 317px;
     height: 176px;
-
 }
 .card-body h3 {
     font-weight: 600;
@@ -403,7 +402,7 @@ img {
 
 /* footer-section */
 .footer-section {
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -417,6 +416,7 @@ img {
     color: #263238;
 }
 .footer-section a {
+    margin-top: 20px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -425,4 +425,67 @@ img {
     padding: 14px 32px;
     border-radius: 4px;
     text-decoration: none;
+    margin-bottom: 0;
+}
+.footer-end-section {
+    display: flex;
+    gap: 200px;
+    background-color: #263238;
+    margin-top: 30px;
+}
+.footer-brand-img {
+    margin-bottom: 40px;
+}
+.footer-brand p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F7FA;
+}
+.footer-socials {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+.footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+}
+.footer-nav h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer-nav-list .footer-nav-link {
+    color: #F5F7FA;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.footer-subscribe {
+    
+}
+.footer-subscribe h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer-subscribe input {
+    top: 52px;
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+    opacity: 20%;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.footer-subscribe input::placeholder {
+    color: #D9DBE1;
+}
+.subscribe-btn {
 }
