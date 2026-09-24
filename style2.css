@@ -506,30 +506,18 @@
   line-height: 28px;
   color: #FFFFFF;
 }
-
-.footer-subscribe {
-    width: 172px;
-}
 .footer-subscribe input {
     margin-top: 18px;
-
     width: 172px;
     height: 28px;
-
     padding: 0 10px;
-
     border: none;
     border-radius: 6px;
-
     outline: none;
-
     background-color: #515e64;
-
     color: #ffffff;
-
     font-size: 10px;
 }
 .footer-subscribe input::placeholder {
     color: #d9dbe1;
-    opacity: 1;
 }
