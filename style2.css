@@ -455,10 +455,11 @@
   display: flex;
   flex-direction: column;
 }
-.links-wrapper {
-  display: flex;
-  gap: 100px;
+  .links-wrapper {
+    display: flex;
+    gap: 70px;
 }
+
 .company-info img {
   margin-bottom: 40px;
 }
@@ -505,16 +506,30 @@
   line-height: 28px;
   color: #FFFFFF;
 }
-.footer-subscribe input {
-  margin-top: 30px;
-  padding: 12px;
-  border-radius: 8px;
-  border: none;
-  width: 255px;
-  height: 40px;
-  background-color: #D9DBE1;
-  opacity: 20%;
+
+.footer-subscribe {
+    width: 172px;
 }
-.footer-subscribe input ::placeholder {
-  color: white;
+.footer-subscribe input {
+    margin-top: 18px;
+
+    width: 172px;
+    height: 28px;
+
+    padding: 0 10px;
+
+    border: none;
+    border-radius: 6px;
+
+    outline: none;
+
+    background-color: #515e64;
+
+    color: #ffffff;
+
+    font-size: 10px;
+}
+.footer-subscribe input::placeholder {
+    color: #d9dbe1;
+    opacity: 1;
 }
