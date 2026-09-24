@@ -210,11 +210,13 @@
 }
 /* achievements-section */
 .achievements-section {
-    background-color: #F5F7FA;
+   background-color: #F5F7FA;
+   margin-top: 50px;
+}
+.achievements-section .wrapper {
     display: flex;
     justify-content: space-between;
     padding: 64px 144px;
-    margin-top: 50px;
 }
 .achievements-icons {
     display: grid;
@@ -281,31 +283,38 @@
     margin-top: 20px;
 }
 /* customer section */
-.customer-img {
-   
+
+.customer-section {
+    background-color: #F5F7FA;
+    margin-top: 40px;
+    display: flex;
 }
+
+.customer-section .wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.customer-img {
+    flex-shrink: 0;
+}
+
 .customer-img img {
-    width: 100%;
-    height: 100%;
+    display: block;
+    width: auto;
+    height: auto;
     object-fit: cover;
 }
-.customer-section {
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #F5F7FA;
-  gap: 24px;
-  padding: 32px 144px;
-}
+
 .customer-info {
     width: 748px;
     height: 324px;
-    gap: 32px;
-    display: block;
-    margin: 0 auto;
-    max-width: 900px;
 }
+
 .customer-icons {
     display: flex;
     align-items: center;
@@ -313,19 +322,21 @@
     gap: 32px;
     margin-top: 25px;
 }
+
 .customer-icons p {
-    align-items: center;
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
     color: #4CAF4F;
 }
+
 .customer-info .customer-1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #717171;
 }
+
 .customer-info .customer-2 {
     font-weight: 600;
     font-size: 20px;
@@ -333,6 +344,7 @@
     color: #4CAF4F;
     margin-top: 10px;
 }
+
 .customer-info .customer-3 {
     font-weight: 400;
     font-size: 16px;
@@ -407,6 +419,7 @@
     font-size: 20px;
     line-height: 28px;
     color: #717171;
+    margin-bottom: 30px;
 }
 .card-body a {
     font-weight: 600;
