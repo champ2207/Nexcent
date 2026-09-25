@@ -12,11 +12,7 @@
 .header-section {
   background-color: #F5F7FA;
   height: 100vh;
-}
-.header-wrapper {
-  max-width: 1440px;
-  padding: 0 40px;
-  margin: 0 auto;
+  padding: 0 80px;
 }
 .nav-links {
   display: flex;
@@ -125,7 +121,6 @@
   margin-bottom: 50px;
 }
 /* community section */
-
 .community-info {
   display: flex;
   flex-direction: column;
@@ -284,19 +279,17 @@
 }
 /* customer section */
 
-.customer-section {
+.customer-section  {
     background-color: #F5F7FA;
-    margin-top: 40px;
     display: flex;
 }
-
-.customer-section .wrapper {
-    max-width: 1440px;
-    margin: 0 auto;
+.customer-section .wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 24px;
+    gap: 90px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .customer-img {
@@ -533,4 +526,12 @@
 }
 .footer-subscribe input::placeholder {
     color: #d9dbe1;
+}
+@media (max-width: 768px ) {
+  .hero-text {
+    flex-direction: column;
+  }
+  .hero-section .hero-img {
+    max-width: 50%;
+  }
 }
