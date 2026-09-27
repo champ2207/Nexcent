@@ -1,0 +1,137 @@
+@media (min-width: 320px) and (max-width:480px){
+    * {
+         font-family: "Inter", sans-serif;
+    }
+    .header-nav {
+        display: none;
+    }
+    .header-section {
+        padding: 0 20px;
+    }
+    .hero-section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+        gap: 20px;
+        background-color: ;
+    }
+    .hero-img {
+        margin-top: 50px;
+    }
+    .hero-text h3,
+    .hero-text .hero-highlight {
+        display: none;
+    }
+    .hero-text .hero-title {
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .hero-title span {
+        color: #4CAF4F;
+    }
+    .hero-text p {
+        color: #717171;
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .hero-btn {
+        width: 100%;
+    }
+    .clients-section-info h3 {
+        font-size: 35px;
+        color: #4d4d4d;
+        margin-bottom: 10px;
+    }
+    .clients-section-info p {
+        font-size: 18px;
+        color: #717171;
+        margin-bottom: 30px;
+    }
+    .clients-section-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .community-info h2 {
+        color: #4d4d4d;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .community-membership {
+        display: grid;
+        gap: 20px;
+    }
+    .unlock-section {
+        display: flex;
+        align-items: center;
+        margin-left: 70px;
+        flex-direction: column;
+    }
+    .unlock-info {
+        width: 400px;
+    }
+    .unlock-info h2 {
+        font-weight: bold;
+        font-size: 30px;
+        color: #4d4d4d;
+        margin-bottom: 20px;
+    }
+    .unlock-info p {
+         margin-bottom: 40px;
+        font-weight: bold;
+        font-size: 17px;
+        color: #717171;
+    }
+    .unlock-info button {
+        width: 100%;
+        font-size: 25px;
+    }
+    .achievements-section .wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .achievements-section-info .highlight {
+        display: none;
+    }
+    .achievements-section-info h2 {
+        display: none;
+    }
+    .achievements-section-info .achievements-section-info-title {
+         color: red;
+        font-size: 100px;    
+    }
+    .achievements-section-info p {
+        color: #18191f;
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .achievements-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .calendar-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .calendar-info {
+        width: 250px;
+    }
+    .calendar-info h3 {
+        text-align: center;
+          font-weight: bold;
+        font-size: 30px;
+        color: #4d4d4d;
+        margin-bottom: 20px;
+    }
+}

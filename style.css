@@ -210,6 +210,9 @@
   padding: 14px 32px;
 }
 /* achievements-section */
+.achievements-section-info-title {
+  display: none;
+}
 .achievements-section {
   background-color: #f5f7fa;
   margin-top: 50px;
