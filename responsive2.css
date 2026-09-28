@@ -180,19 +180,72 @@
     }
     .customer-icons {
         display: block;
-        margin-left:  70px;
+        margin-left:  50px;
         margin-bottom: 200px;
     }
+    .customer-icons p {
+        margin-left: 60px;
+        margin-top: 40px;
+    }
    .community-updates-info {
-    margin-top: 50px;
+    margin-top: 250px;
     display: block;
    }
    .community-updates-section {
     display: flex;
     flex-direction: column;
+    gap: 30px;
    }
-   .card {
-    
+   .above-footer h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 76px;
+    color: #263238;
+    width: 400px;
+   }
+   .above-footer button {
+    font-size: 25px;
+   }
+   .footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+   }
+   .links-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    gap: 20px;
+   }
+   .company-info {
+    margin-left: 30px;
+   }
+   .footer-nav p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    color: #ffffff;
+   }
+   .footer-nav-list {
+    display: flex;
+    align-items: center;
+   }
+   .footer-subscribe p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    color: #ffffff;
+   }
+   .footer-nav-link {
+    font-size: 25px;
+    font-weight: normal;
+   }
+   .company-info {
+    display: flex;
+    align-items: center;
    }
 }
+
 
