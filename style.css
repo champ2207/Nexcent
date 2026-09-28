@@ -210,9 +210,6 @@
   padding: 14px 32px;
 }
 /* achievements-section */
-.achievements-section-info-title {
-  display: none;
-}
 .achievements-section {
   background-color: #f5f7fa;
   margin-top: 50px;
@@ -233,17 +230,19 @@
   align-items: center;
   gap: 16px;
 }
-.achievements-section-info .highlight {
+.achievements-section-title span {
   color: #4caf4f;
   font-size: 36px;
   line-height: 44px;
   font-weight: 600;
 }
-.achievements-section-info h2 {
+.achievements-section-info .achievements-section-title {
   color: #4d4d4d;
   font-size: 36px;
   line-height: 44px;
   font-weight: 600;
+  width:500px;
+  
 }
 .achievements-section-info p {
   color: #18191f;
@@ -357,8 +356,6 @@
 /* /customer section */
 
 /* community-section */
-.community-updates-section-wrapper {
-}
 .community-updates-section {
   display: flex;
   align-items: center;

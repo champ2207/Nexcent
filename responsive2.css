@@ -91,26 +91,30 @@
         font-size: 25px;
     }
     .achievements-section .wrapper {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
+        display: inline;
     }
-    .achievements-section-info .highlight {
-        display: none;
+    .achievements-section-info .achievements-section-title {
+        color: #4d4d4d;
+        font-size: 28px;
+        line-height: 44px;
+        font-weight: 600;
+        width: 350px;
+        text-align: left;
+        margin-left: 20px;
     }
-    .achievements-section-info h2 {
-        display: none;
-    }
-    .achievements-section-info .achievements-section-info-title {
-         color: red;
-        font-size: 100px;    
-    }
+    .achievements-section-title span {
+        color: #4caf4f;
+        font-size: 28px;
+        line-height: 44px;
+        font-weight: 600;
+}
     .achievements-section-info p {
         color: #18191f;
-        font-size: 25px;
-        font-weight: 400;
+        font-size: 20px;
+        opacity: ;
         margin-top: 15px;
-        text-align: center;
+        text-align: left;
+        margin-left: 20px;
     }
     .achievements-icons {
         display: flex;
@@ -123,15 +127,72 @@
     .calendar-section {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
     }
     .calendar-info {
-        width: 250px;
+        width: 200px;
+        margin-left: 0;
+        margin-right: 150px;
     }
     .calendar-info h3 {
-        text-align: center;
-          font-weight: bold;
+         font-weight: bold;
         font-size: 30px;
         color: #4d4d4d;
         margin-bottom: 20px;
+        width: 400px;
     }
+    .calendar-info p {
+        width: 400px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #717171;
+        margin-top: 15px;
+    }
+    .calendar-info button {
+        width: 200%;
+        padding: 14px 32px;
+        border-radius: 4px;    
+        font-size: 24px;
+    }
+    .customer-section .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .customer-img img {
+        margin-right: 300px;
+    }
+    .customer-info .customer-1 {
+        font-weight: 500;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 0;
+        color: #717171;
+        width: 400px;
+    }
+    .customer-info .customer-2 {
+        margin-left: 20px;
+    }
+    .customer-info .customer-3 {
+        margin-left: 20px;
+    }
+    .customer-icons {
+        display: block;
+        margin-left:  70px;
+        margin-bottom: 200px;
+    }
+   .community-updates-info {
+    margin-top: 50px;
+    display: block;
+   }
+   .community-updates-section {
+    display: flex;
+    flex-direction: column;
+   }
+   .card {
+    
+   }
 }
+
