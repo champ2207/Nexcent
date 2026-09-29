@@ -434,7 +434,7 @@
   justify-content: center;
   background-color: #f5f7fa;
 }
-.above-footer h3 {
+.above-footer h2 {
   text-align: center;
   margin-top: 30px;
   font-weight: 600;
@@ -532,11 +532,3 @@
 .footer-subscribe input::placeholder {
   color: #d9dbe1;
 }
-/* @media (max-width: 768px ) {
-  .hero-text {
-    flex-direction: column;
-  }
-  .hero-section .hero-img {
-    max-width: 50%;
-  }
-} */
